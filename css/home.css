@@ -1,0 +1,202 @@
+/*Mobile Content Area************/
+
+#copyright {
+      		visibility: hidden;
+  }
+
+
+.wrapper .mobile{
+	display: block;
+	text-align: center;
+	height: auto;
+	width: 100%;
+	background-color: #ff4931;
+	position: relative;
+	z-index: 1001;
+	margin-top:80px;
+	
+}
+
+.wrapper .mobile a {
+	display:inline-block;
+	padding-bottom: 3px;
+	margin: 0 auto 8px;
+	font-weight:normal;
+	font-size: 30px;
+	font-family: "Trench Sans Light 4"; 
+	line-height:42px;
+	color: #fff;
+	border-bottom: 1px solid transparent;
+	-webkit-transition: border-bottom 0.3s ease;
+	-o-transition: border-bottom 0.3s ease;
+	-moz-transition: border-bottom 0.3s ease;
+	transition: border-bottom 0.3s ease;
+}
+
+.wrapper .mobile .mobileCol {
+	height:100%;
+}
+
+
+
+.wrapper #colOne {
+	display: block;
+	text-align: center;
+	height: 53.93vw;
+  width: 64.18vw;
+  max-height: 431px;
+  max-width: 513px;
+	background: transparent;
+	position: fixed;
+	z-index: 1001;
+	margin:auto;
+	bottom:0;
+	right:248px;
+	left:0;
+	top:30px;
+	padding:0;
+}
+
+.wrapper #colOne a {
+	display:inline-block;
+	margin: 0 auto 8px;
+	font-weight:normal;
+	font-size: 32px;
+	font-family: "Trench Sans Light 4"; 
+	color: #1f1f1f;
+	line-height:40px;
+	height:51px;
+	border-bottom: 1px solid transparent;
+	-webkit-transition: border-bottom 0.3s ease;
+	-o-transition: border-bottom 0.3s ease;
+	-moz-transition: border-bottom 0.3s ease;
+	transition: border-bottom 0.3s ease;
+}
+
+
+
+
+
+
+/*Hover Underline********/
+
+.wrapper .mobile a:after {
+	content: "";
+	display:block;
+  width: 0;
+  height: 1px;
+  visibility: hidden;
+	background: transparent;
+  -webkit-transition: width 0.3s ease, background 0.3s ease;
+  transition: width 0.3s ease, background 0.3s ease;
+}
+
+.wrapper .mobile a:hover:after {
+	visibility: visible;
+ 	width:100%;
+  background: #fff;
+}
+
+
+.wrapper #colOne .linkList a:after {
+	content: "";
+	display:block;
+  width: 0;
+  height: 1px;
+  visibility: hidden;
+	background: transparent;
+  -webkit-transition: width 0.3s ease, background 0.3s ease;
+  transition: width 0.3s ease, background 0.3s ease;
+}
+
+.wrapper #colOne .linkList a:hover:after {
+	visibility: visible;
+ 	width:100%;
+  background: #1f1f1f;
+}
+
+
+/************
+Poster
+***********/
+
+/*Makes poster a white background, block displayed, centered and with a box shadow*/
+#poster {
+	
+	display:block; 
+	margin:auto;
+	background: url("../img/homescreen_1.png") no-repeat center center;
+	background-size: cover; 
+	
+
+}
+
+	
+
+/*Makes the poster height 73% of the window, makes the canvas 100% of poster height*/
+
+#poster {
+	position: absolute;
+	height: 53.93vw;
+	width: 64.18vw;
+	max-height: 61.14vh;
+	max-width: 72.76vh;
+	top: 0;
+	bottom: 0;
+}
+.outer {
+	width: 100%;
+	padding-top: 84%;
+}
+
+#blankcanvas {
+	position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+	}
+
+
+/*Footer Arrow*/
+footer {
+	margin: 0;
+	padding:0;
+}
+
+footer #downArrow a {
+	width: 50px;
+	height: 50px;
+	position: fixed;
+	bottom: 30px;
+	left: 47.8%;
+	text-align:center;
+	margin: 0 auto;
+	overflow: hidden;
+	border: none;
+	
+	
+	fill: #fff;
+	outline: none;
+	z-index: 1000;
+	
+}
+
+footer #downArrow svg {
+	width: 100%;
+	height: 100%;
+}
+
+/******************
+ Page Animations
+ *****************/
+
+
+
+
+/*********************
+Home Poster Change
+*********************/
+
+.posterImage {background-size: cover !important; width:100%; height: 100%; position:absolute;}
+    .next {opacity:0;}

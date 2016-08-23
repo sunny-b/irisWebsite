@@ -1,0 +1,341 @@
+/*************************** 
+iPHONE and PHONES
+****************************/
+
+@media (max-width: 641px) and (min-width : 320px) {
+	.carousel-inner .accolades2 {
+    	display:block;
+    	position:absolute;
+    	top:0;
+    	left:40%;
+    	width:60%;
+    	background:white;
+    	height:100%;
+    	padding: 3% 6% 5%;
+    	z-index:-1;
+    	opacity:0;
+    }
+    
+    #next2 {
+			margin-bottom:23%
+		}
+    
+    .carousel-inner .accolades2 a.prev-next {
+    	font-size:12pt;
+    	line-height:24px;
+    }
+    
+    .wrapper .content .content-break {
+      display:none;
+    }
+    
+  	.carousel-inner .active {
+    	height:100%;
+    }
+    
+    .nagivation-control {
+    	width:100%;
+    	height:100%;
+    }
+	}
+	
+	@media only screen and (min-width : 320px) {
+		.carousel-control.right,.carousel-control.left{
+			width:40%;
+		}
+		
+		.carousel-control.left {
+			right:60%;
+		}
+		
+		.carousel-control.right {
+			left:60%;
+		}
+	}
+	
+	
+	@media only screen and (min-width : 320px) {
+      .carousel-inner>.item>img {
+      	height:auto;
+      	max-height:555px;
+      }
+      
+      .wrapper .content .mobileNP{
+      	margin-bottom:100px;
+      }
+      
+      .wrapper .content .mobileNepr{
+      	font-size:12pt;
+      	display:inline-block;
+      	float:left;
+      	width:50%;
+      	margin:35px 0;
+      }
+  
+      
+      .wrapper .content .accolades {
+      	display:none;
+      }
+ }     
+        
+/*************************** 
+iPAD IN PORTRAIT
+****************************/
+    
+    
+    @media (max-width: 767px) and (min-width: 641px)  {
+    
+    .colorNormal {
+    	background-color:#FFf;
+    }
+    
+    header div.bottomBorder {
+				display:none;
+         position:fixed;
+         z-index:10010;
+         top: 59px;
+         left:-5px;
+         height:6px;
+       	 background-size: 100% 200px; 
+         width:100%; 
+         margin:0 auto;
+         background: url(../img/borderBottom.png) bottom center no-repeat;
+        background-blend-mode: multiply;
+       opacity: 0.3; 
+         }
+    
+    .nav {
+    	background: #fff;
+    	height: 60px;
+    }
+    
+    .wrapper .content {
+    	height:auto;
+    	margin: 47px 45px 0;
+    	padding-bottom:0;
+    }
+    
+    .carousel-inner .accolades2 {
+    	display:block;
+        	position:absolute;
+        	top:0;
+        	left:40%;
+        	width:60%;
+        	background:white;
+        	height:100%;
+        	padding: 6% 6%;
+        	z-index:-1;
+        	opacity:0;
+    }
+    
+    #next2 {
+			margin-bottom:45%
+		}
+    
+    .carousel-inner .accolades2 a.prev-next {
+        	font-size:14pt;
+        	line-height:25px;
+        }
+        
+        .wrapper .content .content-break {
+          display:none;
+        }
+        
+        .carousel-inner .active {
+        	height:100%;
+        }
+        
+        .nagivation-control {
+        	width:100%;
+        	height:100%;
+        }
+    
+    footer .fixedFooter {
+         	display: none;
+         }
+    
+		footer .social-links {
+			display:block;
+			padding: 35px 0 20px 8px;
+			clear:both;
+		}
+    
+    
+ 
+ 		.overlay .overlay-close{
+ 			right:10.5%;
+ 		}
+   	
+    }
+    
+
+
+
+
+/*************************** 
+DESKTOPS
+****************************/
+
+/*CSS for beyond iPad*************/
+
+@media only screen and (min-width : 768px) {
+			
+			
+			
+			.colorNormal {
+    	background-color:#FFf;
+    }
+			
+			.nav {
+				background:#fff;
+				height: 70px;
+				
+			}
+			
+			header div.bottomBorder {
+				display:none;
+         position:fixed;
+         z-index:10010;
+         top: 69px;
+         left:-5px;
+         height:6px;
+       	 background-size: 100% 200px; 
+         width:100%; 
+         margin:0 auto;
+         background: url(../img/borderBottom_opt1.png) bottom center no-repeat;
+        background-blend-mode: multiply;
+       opacity: 0.3; 
+         }
+			
+			
+			.nav .name {
+				top: 30px;
+			}
+			
+			.pullright {
+				top: 27px;
+			}
+			
+			body, .wrapper, #colOne {
+				background-color:#fff;
+			}
+			
+			.nav .name a {
+				color: #ff4931;
+			}
+			
+			.pullright a.hamburger .icon-bar, .pullright a.hamburger .icon-bar:before, .pullright a.hamburger .icon-bar:after {
+				background-color: #ff4931;
+			}
+    
+    
+    .wrapper .content {
+    	height: auto;
+    	
+    }
+    
+    .wrapper .content .mobileNP{
+        	display:none;
+        }
+    
+    .wrapper .about-photo {
+    	margin: 115px 0 0 255px;
+    }
+    
+    .wrapper .about-photo {
+    	height: 53.93vw;
+	width: 64.18vw;
+	max-height: 61.14vh;
+	max-width: 72.76vh;
+    }
+    
+    .wrapper .content .about {
+    	width: 57.6%;
+    	display: block;
+    	padding: 80px 8% 0 8.3%;
+    	float: left;
+    	
+    	
+    }
+  
+  	.wrapper .content .accolades {
+  		width: 42%;
+  		padding: 70px 0 0 34px;
+  		margin: 0;
+  		display: block;
+  		float: left;
+  		background:white;
+  		position: relative;
+  		border-left: 1px solid black;
+  		left:2.5%;
+  		
+  	}
+  	
+  	.carousel-inner .accolades2 {
+  		display:none;
+  	}
+  	
+  	.wrapper .content #headline, .wrapper .content .mobileSolution {
+  		display: none;
+  	}
+  	
+  	.wrapper .about-container {
+  		position: relative;
+  		left:0;
+  		right:0;
+  		height: auto;
+  		width: 768px;
+  		margin: 0 auto;
+  	}
+  	
+  
+ 	.wrapper .content h3 {
+		margin-top: 0px;
+		display: inline-block;
+		line-height:5px;
+		font-size: 21pt;
+	 	color: #ff4931;
+	  margin-bottom: 21px;
+  }
+  
+  .wrapper .content h4 {
+  	font-size:12pt;
+  }
+  	
+  
+  .wrapper .content .content-break {
+  	display: none;
+  }
+   
+   footer .fixedFooter {
+         	display: none;
+    }
+    
+   footer .social-links {
+			display:block;
+			padding: 35px 0 0px 25px;
+			background:#fff;
+			clear:both;
+		} 
+		
+		.overlay .overlay-close{
+ 			right:12.1%;
+ 			top: 31px;
+ 		}
+ 		
+}
+
+@media (min-width: 1200px)
+.container {
+    width: 1000px;
+}
+@media (min-width: 992px)
+.container {
+    width: 920px;
+}
+
+@media (min-width: 768px)
+.container {
+    width: 100%;
+}
+

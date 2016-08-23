@@ -1,0 +1,133 @@
+/*Huge Inc styled overlay effect**********/
+
+/* Overlay style */
+.overlay {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(255,255,255,1);
+	z-index:9999;
+}
+
+/* Overlay closing cross */
+.overlay .overlay-close {
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	right: 12%;
+	top: 18px;
+	overflow: hidden;
+	border: none;
+	background: url(../img/x.png) no-repeat center center;
+	background-size:cover;
+	text-indent: 200%;
+	color: transparent;
+	outline: none;
+	z-index: 100000;
+	opacity: 0.5;
+	padding:10px;
+}
+
+.overlay .overlay-close:hover {
+	opacity: 1;
+}
+
+/* Menu style */
+.overlay nav {
+	text-align: center;
+	position: relative;
+	
+	
+	font-size: 45px;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.overlay ul {
+	list-style: none;
+	padding: 0;
+	margin: 0 auto;
+	display: inline-block;
+	height: 100%;
+	position: relative;
+	top:100px;
+}
+
+.overlay ul li {
+	display: block;
+	height: 20%;
+	height: calc(100% / 5);
+	margin-bottom: 30px;
+	min-height: 54px;
+	font-family: "Trench Sans Light 4";
+}
+
+.overlay ul li a {
+	
+	
+	color: #ff4931;
+	-webkit-transition: color 0.2s;
+	transition: color 0.2s;
+	border-bottom: 1px solid transparent;
+}
+
+
+
+.overlay ul li a:hover,
+.overlay ul li a:focus {
+	text-decoration: none;
+	border-bottom: 1px solid #ff4931;
+	transition: border-bottom 0.3s ease;
+}
+
+/*Effect*****/
+
+.overlay {
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity 0.2s, visibility 0s 0.2s;
+}
+
+.overlay.open {
+	opacity: 1;
+	visibility: visible;
+	transition: opacity 0.2s;
+}
+
+.overlay nav {
+	perspective: 1200px;
+}
+.overlay nav ul {
+	opacity: 0.4;
+	-webkit-transform: translateY(-25%) rotateX(0deg);
+	transform: translateY(-25%) rotateX(0deg);
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+	transition: transform 0.2s ease-in, opacity 0.2s ease-in;
+}
+
+.overlay.open nav ul {
+	opacity: 1;
+	/*-webkit-transform: rotateX(0deg);*/
+	transform: opacity 0.2s;
+}
+
+.overlay.close nav ul {
+	top: 10px;
+	opacity: 1;
+	-webkit-transform: opacity 0.2s;
+	transform: opacity 1s;
+}
+
+header.effect, .wrapper.effect {
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity 0.1s, visibility 0s 0.1s;
+}
+
+header, .wrapper {
+	opacity: 1;
+	visibility: visible;
+	transition: opacity 0.2s, visibility 0s 0.2s;
+}

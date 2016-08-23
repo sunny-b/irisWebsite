@@ -1,0 +1,263 @@
+/*************************** 
+iPHONE and PHONES
+****************************/
+@media (max-width: 568px) and (min-width : 320px) {
+	.gallery-content .grid-item {
+       		width:100%;
+       		margin:0;
+       		margin-bottom:10px
+       		
+       	}
+}
+
+@media (max-width: 750px) and (min-width : 568px) {
+	.gallery-content .grid-item {
+       		width:49.8%;
+       		margin:0;
+       		margin-bottom:3px
+       	}
+}
+
+@media (max-width: 768px) and (min-width : 750px) {
+	.gallery-content .grid-item {
+       		width:49.84%;
+       		margin:0;
+       		margin-bottom:3px
+       	}
+}
+
+@media (max-width: 768px) and (min-width : 320px) {
+	/*Gallery*/
+      
+      	#copyright {
+      		visibility: hidden;
+      	}
+      
+      
+       	.gallery-content {
+       		margin-left: 0;
+       	}
+       	
+       	.gallery-content .grid {
+       		text-align:center;
+       		max-width:100%;
+       		margin-bottom:50px;
+       	}
+       	
+       	
+       	
+       	.gallery-content .grid-item img {
+       		width:100%;
+       	}
+       	
+       	.gallery-content .grid-item2 {
+       		padding: 0 4.25%;
+       		width: 100%;
+       		height:auto;
+       		margin-bottom:50px;
+       	}
+       	
+       	.gallery-content .about-box p {
+       		font-size:12pt;
+       		line-height:29px;
+       		text-align:left;
+       	}
+       	
+       	#jiminie, #rediscover, #letterous {
+       		width: 100%;
+       	}
+	
+}
+
+/*************************** 
+iPAD IN PORTRAIT
+****************************/
+    
+    
+    @media (max-width: 768px) and (min-width: 641px)  {
+    
+    .colorNormal {
+    	background-color:#FFf;
+    }
+    
+    header div.bottomBorder {
+				display:none;
+         position:fixed;
+         z-index:10010;
+         top: 59px;
+         left:-5px;
+         height:6px;
+       	 background-size: 100% 200px; 
+         width:100%; 
+         margin:0 auto;
+         background: url(../img/borderBottom.png) bottom center no-repeat;
+        background-blend-mode: multiply;
+       opacity: 0.3; 
+         }
+    
+    .nav {
+    	background: #fff;
+    	height: 60px;
+    }
+    
+    
+    .middleNav ul li a.selected {
+	opacity:1;
+	border-bottom: 1px solid #000;
+}
+    
+    .wrapper .content {
+    	height:auto;
+    	margin: 0 45px;
+    }
+    
+    
+    footer .fixedFooter {
+         	display: none;
+         }
+    
+		footer .social-links {
+			display:block;
+			padding: 35px 0 20px 8px;
+			clear:both;
+		}
+    
+    
+ 
+ 		.overlay .overlay-close{
+ 			right:10.5%;
+ 		}
+   	
+    }
+    
+
+
+
+
+/*************************** 
+DESKTOPS
+****************************/
+
+/*CSS for beyond iPad*************/
+
+@media only screen and (min-width : 768px) {
+			
+			
+			
+			.nav {
+				background:#fff;
+				height: 70px;
+				
+			}
+			
+			
+			header div.bottomBorder {
+				display:none;
+         position:fixed;
+         z-index:10010;
+         top: 69px;
+         left:-5px;
+         height:6px;
+       	 background-size: 100% 200px; 
+         width:100%; 
+         margin:0 auto;
+         background: url(../img/borderBottom_opt1.png) bottom center no-repeat;
+        background-blend-mode: multiply;
+       opacity: 0.3; 
+         }
+			
+			.icon-bar {
+				
+				z-index:200001;
+			}
+			
+			.middleNav {
+				width: 61.2%;
+				display: block;
+				position: fixed;
+				top: 21px;
+				margin:0 0 0 -169.1015px;
+				padding:0;
+				left: 43%;
+				z-index: -1;
+			}
+			
+			.middleNav ul {
+				width: auto;
+				display: block;
+				margin: 0;
+				padding:0;
+			}
+							
+			
+			.middleNav ul li {
+				display: inline-block;
+				z-index: 1010;
+				color: #000;
+				width: auto;
+				padding: 10px;
+				left:0;
+				right:0;
+				margin: 0 2.5%;
+				font-size: 12pt;
+			}
+			
+			.middleNav ul li a, .middleNav ul li a:link, .middleNav ul li a:visited {
+				color: #000;
+				opacity: 0.6;
+				line-height:18px;
+			}
+			
+			.middleNav ul li a:hover {
+				color: #000;
+				opacity: 1;
+				
+	
+			}
+			
+			.middleNav ul li a.selected, .middleNav ul li a:active, .middleNav ul li a:focus  {
+				opacity:1;
+				border-bottom: 1px solid #000;
+				
+			}
+			
+			.nav .name {
+				top: 30px;
+			}
+			
+			.pullright {
+				top: 27px;
+			}
+			
+			
+			body, .wrapper, #colOne {
+				background-color:#fff;
+			}
+			
+			.nav .name a {
+				color: #ff4931;
+			}
+			
+    
+   footer .fixedFooter {
+         	display: none;
+    }
+    
+   footer .social-links {
+			display:block;
+			padding: 0px 0 0px 25px;
+			background:#fff;
+			clear:both;
+		} 
+		
+   
+    
+  
+
+.overlay .overlay-close{
+ 			right:12.1%;
+ 			top: 31px;
+ 		}
+
+			
+}

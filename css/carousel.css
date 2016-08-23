@@ -1,0 +1,286 @@
+.moving {
+	position:relative;
+	top:800px;
+	opacity:0;
+}
+
+.middlecontainer{
+	padding-top: 100px;
+	padding-bottom: 0px!important;
+	z-index:2000;}
+	
+	
+
+
+#myCarouselTwo{
+	margin-bottom: 20px;
+}
+
+.next{
+	bottom:400px;
+	letter-spacing: .4px;
+	right:-45px;
+	padding: 35px;
+	position: fixed;
+	text-align: center;
+	-ms-transform: rotate(-90deg); /* IE 9 */
+    -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+    transform: rotate(-90deg);
+    -webkit-perspective: 1000;
+    -webkit-font-smoothing: subpixel-antialiased;
+    z-index: 6000;
+}
+
+
+.previous{
+	bottom:400px;
+	letter-spacing: .4px;
+	left:-45px;
+	padding: 30px;
+	position: fixed;
+	text-align: center;
+	-ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90sdeg);
+    z-index: 6000;
+}
+
+
+
+.rightcarousel{
+	cursor:e-resize;
+}
+
+.leftcarousel{
+	cursor:w-resize;
+}
+
+
+
+.carousel-control.right{
+	background-image: none!important;
+	width:50%;
+	left:50%;
+	height:100%;
+	max-height:520px;
+	visibility:visible;
+}
+
+.carousel-control.left{
+	background-image: none!important;
+	width: 50%;
+	right:50%;
+	height:100%;
+	max-height:520px;
+	visibility:visible;
+}
+
+
+
+
+
+/*------------------------------------*\
+    $CAROUSEL
+\*------------------------------------*/
+
+/*------------------------------------*\
+    $CAROUSEL
+\*------------------------------------*/
+
+
+.img-container{
+	max-height: 600px;
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+
+.newcontainer {
+  width: 100%;
+  max-width: $container-max-width;
+  padding-left:  $container-gutter;
+  padding-right: $container-gutter;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing:    border-box;
+  box-sizing:         border-box;
+  margin-left:  auto;
+  margin-right: auto;
+}
+
+.img-responsive {
+ height: 100%;
+ width:auto;
+ position: absolute;
+ right: 0;
+ left: 0;
+ bottom: 0;
+ margin: 0 auto;
+}
+
+.bold{
+	font-size: 25px;
+	font-weight: bold;
+	padding-bottom: 14px;
+}
+
+img {
+	height:555px;
+	margin:0 auto;
+}
+
+
+/******************************\
+CAROUSEL
+\******************************/
+
+div.container-fluid {
+	padding:0;
+}
+
+div.container {
+	padding:0;
+}
+
+.col-lg-12,  .col-md-12, .col-sm-12 {
+	padding:0;
+}
+
+.wrapper .content {
+	padding: 0 25px 100px;
+	height:auto;
+	line-height: 24px;
+	letter-spacing: 0.1px;
+	
+}
+
+.wrapper .content .about a {
+	
+	line-height:20px;
+	display:inline-block;
+	
+	text-decoration:none;
+	
+	color: #FF4931;
+	
+}
+
+.wrapper .content .about a:after {
+	content: "";
+	display:block;
+  width: 0;
+  height: 1px;
+  
+  visibility: hidden;
+	background: transparent;
+  -webkit-transition: width 0.3s ease, background 0.3s ease;
+  transition: width 0.3s ease, background 0.3s ease;
+}
+
+.wrapper .content .about a:hover:after {
+	visibility: visible;
+ 	width:100%;
+  background: #FF4931;
+}
+
+
+.wrapper .content h3 {
+	font-size: 21pt;
+	
+	color: #ff4931;
+	margin-bottom:21px;
+	
+}
+
+.wrapper .content .content-break {
+	width: 100%;
+	margin: 20px auto;
+	height: 1px;
+	background-color: black;
+}
+
+.wrapper .content ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+.wrapper .content ul li {
+	font-size:9pt;
+	line-height: 17px;
+	padding-bottom: 5px;
+}
+
+.wrapper .content p {
+	line-height:24px;
+	font-size:11pt;
+}
+
+
+a.next-prev, a.prev-next {
+	font-size: 12pt;
+	line-height:21px;
+	display:inline-block;
+	opacity:0.6;
+	text-decoration:none;
+	
+	
+	
+}
+
+a.next-prev:hover, a.prev-next:hover {
+	opacity:1;
+	color:#000;
+	
+}
+
+a.next-prev:after, a.prev-next:after {
+	content: "";
+	display:block;
+  width: 0;
+  height: 1px;
+  
+  visibility: hidden;
+	background: transparent;
+  -webkit-transition: width 0.3s ease, background 0.3s ease;
+  transition: width 0.3s ease, background 0.3s ease;
+}
+
+a.next-prev:hover:after, a.prev-next:hover:after {
+	visibility: visible;
+ 	width:100%;
+  background: black;
+}
+
+#next {
+	margin-bottom:28px;
+}
+
+#next2, #prev2 {
+	position: relative;
+}
+
+h4 {
+	margin-bottom: 35px;
+}
+
+
+.navigation-control {
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-height:520px;
+    visibility:hidden;
+}
+
+video {
+	width:100%;
+	height:100%;
+	max-height:555px;
+}
+
+
+
+
+
+

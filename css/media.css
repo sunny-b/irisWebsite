@@ -1,0 +1,492 @@
+/*************************** 
+iPHONE and PHONES
+****************************/
+
+		@media (max-width:641px) and (min-width : 320px) {
+			
+			.closeButton {
+				right:10.5%;
+			}
+			
+			.closeButton em {
+				margin-top:5px;
+			}
+			
+			.overlay .overlay-close {
+				right:13.5%;
+			}
+		}
+
+		@media only screen and (min-width : 320px) {
+        
+      .wrapper {
+				position:absolute;
+				width:100%;
+				height:100%;
+				top:110%;
+				background:transparent;
+			}
+        
+        .nav {
+        	background: #ff4931;
+        }
+        
+        .notMobile {
+        	display:none;
+        	
+        }
+        
+        /*Footer*/
+        
+        footer .fixedFooter {
+        	position: relative;
+        	z-index: 1010;
+        	height: 70px;
+        	bottom: 0;
+        	background: #FF4931;
+        	width: 100%;
+        	
+    			
+        }
+        
+        /*Footer Icons*/
+       
+       footer #instaIcon {
+       	position: absolute;
+       	z-index: 1010;
+       	background: url(../img/gallery2/instagram_white.png) center center no-repeat;
+       	background-size: cover;
+       	width: 29px;
+       	height: 28px;
+       	bottom: 22px;
+       	left: 10.5%;
+       	fill: white;
+       	color: white;
+       	opacity:0;
+       	
+       }
+        
+        footer #mailto {
+       	position: absolute;
+       	z-index: 1010;
+       	background: url(../img/gallery2/mail_white.png) center center no-repeat;
+       	background-size: cover;
+       	width: 38px;
+       	height: 22px;
+       	bottom: 24px;
+       	left: 29%;
+       	fill: white;
+       	color: white;
+       	opacity:0;
+       } 
+        
+       /*Hide Down Arrow*/
+        
+        #downArrow {
+        	visibility: hidden;
+        }
+    
+    
+    
+    
+    		/*Fade Scroll*/
+            
+        
+    		header div.bottomBorder {
+				display:none;
+         position:fixed;
+         z-index:10010;
+         top: 56px;
+         left:-5px;
+         height:6px;
+       	 background-size: 100% 200px; 
+         width:100%; 
+         margin:0 auto;
+         background: url(../img/rsz_borderbottom.png) bottom center no-repeat;
+        background-blend-mode: multiply;
+       opacity: 1; 
+         }
+         
+         
+    }
+
+/*************************** 
+iPAD IN PORTRAIT
+****************************/
+    
+    
+    @media (max-width: 768px) and (min-width: 641px)  {
+    
+    .nav {
+    	height: 110px;
+    	background-color: transparent;
+    }
+    
+    .nav .name {
+    	top: 30px;
+    }
+    
+    .pullright {
+    	top: 27px;
+    }
+    
+    
+    
+    .colorNormal {
+    	background-color:#FF4931;
+    }
+    
+    footer .fixedFooter {
+         	display: none;
+         }
+    
+    footer #downArrow a {
+	width: 50px;
+	height: 50px;
+	position: fixed;
+	bottom: 30px;
+	left: 0;
+	right:0;
+	text-align:center;
+	margin: 0 auto;
+	overflow: hidden;
+	border: none;
+	
+	
+	fill: #fff;
+	outline: none;
+	z-index: 100000;
+	
+}
+    
+    #downArrow {
+    	visibility: visible;
+    }
+    
+    .notMobile {
+    	display: block;
+    }
+    
+    .wrapper #colOne {
+    	height:54.93vw;
+    	line-height:68px;
+    	right:275px;
+    }
+    
+    .notMobile #poster {	
+    	display: block;
+   		top: 0px;
+    	left: 20%;
+    	right: 0;
+    	
+   
+    z-index: 1000;
+    position: absolute;
+   	 }	
+   	 
+   	 .wrapper .mobile, .wrapper .mobile a {
+   	display:none;
+   }
+ 
+ 		.overlay .overlay-close{
+ 			right:10.5%;
+ 			top: 31px
+ 		}
+   	
+    }
+    
+
+
+
+/****************;*********** 
+Background Transitions
+****************************/
+   
+ 
+@media only screen and (min-width : 641px) {
+	
+	.nav {
+    	height: 110px;
+    }
+    
+    .nav .name {
+    	top: 30px;
+    }
+    
+    .pullright {
+    	top: 27px;
+    } 
+	
+	
+	.pullright a.hamburger.invert .icon-bar, .pullright a.hamburger.invert .icon-bar:before, .pullright a.hamburger.invert .icon-bar:after {
+				background-color: #fff;
+				
+			}
+			
+			.pullright a.hamburger.normal .icon-bar, .pullright a.hamburger.normal .icon-bar:before, .pullright a.hamburger.normal .icon-bar:after {
+				background-color: #fff;
+				
+			}
+			
+			.pullright a.hamburger.negative .icon-bar, .pullright a.hamburger.negative .icon-bar:before, .pullright a.hamburger.negative .icon-bar:after {
+				background-color: #1f1f1f;
+				
+			}
+			
+			.pullright a.hamburger.zaha .icon-bar, .pullright a.hamburger.zaha .icon-bar:before, .pullright a.hamburger.zaha .icon-bar:after {
+				background-color: #989898;
+			}
+			
+			.pullright a.hamburger.red .icon-bar, .pullright a.hamburger.red .icon-bar:before, .pullright a.hamburger.red .icon-bar:after {
+				background-color: #FF4931;
+			}
+			
+		.wrapper #colOne div.invert a {
+			color: #fff;
+			
+		}
+		
+		.wrapper #colOne div.normal a {
+			color: #fff;
+			
+		}
+		
+		
+		.wrapper #colOne div.negative a {
+			color: #1f1f1f;
+		}	
+		
+		.wrapper #colOne div.zaha a {
+			color: #989898;
+		}
+		
+		.wrapper #colOne div.red a {
+			color: #000;
+		}
+		
+		.wrapper #colOne div.invert a:hover:after {
+			background:#fff;
+		}
+		
+		.wrapper #colOne div.normal a:hover:after	 {
+			background:#fff;
+		}
+		
+		.wrapper #colOne div.negative a:hover:after {
+			background:#1f1f1f;
+		}
+		
+		.wrapper #colOne div.zaha a:hover:after {
+			background:#989898;
+		}
+		
+		.wrapper #colOne div.red a:hover:after {
+			background:#000;
+		}
+			
+			
+		footer #downArrow a.invert {
+			fill: #fff;
+		}	
+		
+		footer #downArrow a.normal {
+			fill:#fff;
+		}
+	
+		footer #downArrow a.negative {
+			fill:#1f1f1f;
+		}
+		
+		footer #downArrow a.zaha {
+			fill:#989898;
+		}
+		
+		footer #downArrow a.red {
+			fill:#ff4931;
+		}
+		
+		.overlay .overlay-close {
+    	top: 31px;
+    }
+}
+ 
+ 
+ 
+ 
+   
+/*************************** 
+DESKTOPS
+****************************/
+
+/*CSS for beyond iPad*************/
+
+@media only screen and (min-width : 769px) {
+			
+			.colorNormal {
+    	background-color:#FFf;
+    }
+			
+			.nav {
+				background:transparent;
+			}
+			
+			.nav .name a:after {
+	content: "";
+	display:block;
+  width: 0;
+  height: 1px;
+  visibility: hidden;
+	background: transparent;
+  -webkit-transition: width 0.3s ease, background 0.3s ease;
+  transition: width 0.3s ease, background 0.3s ease;
+}
+
+.nav .name a:hover:after {
+	visibility: visible;
+ 	width:100%;
+  background: #ff4931;
+}
+			
+			body, .wrapper, #colOne {
+				background-color:#fff;
+			}
+			
+			.nav .name a {
+				color: #ff4931;
+			}
+			
+			.pullright a.hamburger {
+				right: 11.5%;
+			}
+			
+			.nav .name {
+				left: 10.9%;
+			}
+			
+			.pullright a.hamburger .icon-bar, .pullright a.hamburger .icon-bar:before, .pullright a.hamburger .icon-bar:after {
+				background-color: #ff4931;
+			}
+    
+    
+    
+    .notMobile {
+    	display: block;
+    }
+    
+    .wrapper #colOne div a {
+    	font-size: 40px; 
+    	height:60px;
+    	line-height:50px;
+    	
+    }
+    
+    .wrapper .mobile, .wrapper .mobile a {
+   	display:none;
+   }
+   
+   footer .fixedFooter {
+         	display: none;
+    }
+    
+    #downArrow {
+    	visibility: visible;
+    }
+    
+  footer #downArrow a {
+			width: 50px;
+			height: 50px;
+			position: absolute;
+			bottom: 30px;
+			left: 0;
+			right:0;
+			text-align:center;
+			margin: 0 auto;
+			overflow: hidden;
+			border: none;
+			fill: #ff4931;
+			outline: none;
+			z-index: 1000;
+			
+	}
+
+.overlay .overlay-close{
+ 			right:12.1%;
+ 		}
+
+			
+}
+
+/*Poster and Column Queries**************/
+
+@media only screen and (min-width : 641px) {
+	.notMobile #poster {
+	  display: block;
+	 	top: 0;
+	  left: 23%;
+	  right: 0;
+	  bottom: 0px;
+	 	z-index: 1000;
+	  position: absolute;
+	  overflow:hidden;
+}
+			
+.wrapper {
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:110%;
+	overflow:hidden;
+	background:transparent;
+}
+			
+	body {
+		overflow:hidden;
+	}
+}
+
+
+@media (min-width: 768px) and (max-width:890px) {
+			
+		.notMobile #poster {
+    	display: block;
+   		left: 23%;
+    	right: 0;
+    	bottom: 0px;
+   		z-index: 1000;
+    	position: absolute;
+   	}	
+}
+		
+
+
+/******************/		
+		@media (min-width: 890px) and (max-width:1070px) {
+			.notMobile #poster {
+    		display: block;
+   			left: 19%;
+    		right: 0;
+    		bottom: 0px;
+   			z-index: 1000;
+    		position: absolute;
+   	 	}	
+		}
+
+
+/*********************/
+
+
+    @media only screen and (min-width : 1070px) {
+		
+		.notMobile #poster {
+    	display: block;
+   		left: 15.67%;
+    	right: 0;
+    	bottom: 0px;
+   		z-index: 1000;
+    	position: absolute;
+   	 }	
+}
+
+
+
+

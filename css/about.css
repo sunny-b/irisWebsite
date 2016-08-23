@@ -1,0 +1,100 @@
+
+/********************
+About Photo & Wrapper
+********************/
+
+.wrapper .about-photo {
+	display: block;
+	background: url(../img/iris-about.jpg) center center no-repeat;
+	background-size: cover;
+	margin: 80px auto 0;
+	width:100%;
+	min-height: 265.8px;
+}
+
+.wrapper .content {
+	padding: 0 25px 50px;
+	height:auto;
+	line-height: 24px;
+	letter-spacing: 0.1px;
+	
+}
+
+.wrapper #solution {
+	display:none;
+}
+
+.wrapper .content .about a {
+	color: #FF4931;
+	display:inline-block;
+	line-height:20px;
+}
+
+.wrapper .content .about a:after {
+	content: "";
+	display:block;
+  width: 0;
+  height: 1px;
+  visibility: hidden;
+	background: transparent;
+  -webkit-transition: width 0.3s ease, background 0.3s ease;
+  transition: width 0.3s ease, background 0.3s ease;
+}
+
+.wrapper .content .about a:hover:after {
+	visibility: visible;
+ 	width:100%;
+  background: #ff4931;
+}
+
+/*.wrapper .content .about a:hover {
+	text-decoration: none;
+	border-bottom: 1px solid #FF4931;
+}*/
+
+.wrapper .content .mobileSolution {
+	font-size: 22pt;
+	color: #ff4931;
+	text-align: left;
+	width: 100%;
+	padding: 14px 0 15px;
+	}
+
+.wrapper .content h3 {
+	font-size: 16pt;
+	font-family:; 
+	color: black;
+	display:none;
+}
+
+.wrapper .content .content-break {
+	width: 100%;
+	margin: 20px auto;
+	height: 1px;
+	background-color: black;
+}
+
+.wrapper .content ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+.wrapper .content ul li {
+	font-size:9pt;
+	line-height: 17px;
+	padding-bottom: 5px;
+}
+
+.wrapper .content p {
+	line-height:24px;
+	font-size:11pt;
+}
+
+.wrapper .content .accolades {
+	opacity: 0.7;
+}
+
+
+
+

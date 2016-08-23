@@ -1,0 +1,168 @@
+body {
+	background-color: #fff;
+}
+
+  
+ .nav {
+		 color: #fff;
+ } 
+ 
+
+
+
+
+/*Hamburger Icon and Animation*************/
+
+
+.pullright a.hamburger .icon-bar {
+	background: #ff4931;
+}
+
+.pullright a.hamburger .icon-bar:hover {
+	background:#ff4931;
+}
+
+.pullright a.hamburger .icon-bar:before {
+	
+    background: #ff4931;
+    
+} 
+
+.pullright a.hamburger .icon-bar:after {
+	
+    background: #ff4931;
+    
+}
+
+ 
+ 
+/*"Iris Sprague" Nav Link**********/ 
+ 
+
+  
+.nav .name a {
+	color:#ff4931;
+}
+
+.nav .name a:after {
+	content: "";
+	display:block;
+  width: 0;
+  height: 1px;
+  visibility: hidden;
+	background: transparent;
+  -webkit-transition: width 0.3s ease, background 0.3s ease;
+  transition: width 0.3s ease, background 0.3s ease;
+}
+
+.nav .name a:hover:after {
+	visibility: visible;
+ 	width:100%;
+  background: #ff4931;
+}
+
+/****************
+ MEDIA FOR IPHONE
+ ***************/
+
+
+
+@media (max-width:641px) and (min-width : 320px) {
+	.closeButton {
+		right:10.5%;
+	}
+			
+	.closeButton em {
+		margin-top:5px;
+	}
+			
+	.overlay .overlay-close {
+		right:13.5%;
+	}
+			
+	#copyright {
+    visibility: hidden;
+   }
+}
+		
+@media only screen and (min-width : 320px) {
+        
+	 .nav {
+	   background: #fff;
+	  }
+	  
+	  /*Footer*/
+	    
+	footer .social-links {
+	 display:none;
+	}
+	    
+	footer .fixedFooter {
+	 	position: relative;
+		z-index: 1010;
+		height: 70px;
+		bottom: 0;
+		background: #fff;
+		width: 100%;
+		
+	}
+	
+	/*Footer Icons*/
+	 
+	 footer #instaIcon {
+	 	position: absolute;
+	 	z-index: 2000000;
+	 	background: url(../img/gallery2/instagram_red.png) center center no-repeat;
+	 	background-size: cover;
+	 	width: 29px;
+	 	height: 28px;
+	 	bottom: 22px;
+	 	left: 10.5%;
+	 	fill: #ff4931;
+	 	color: #ff4931;
+	 	opacity:0;
+	 }
+	
+	  
+	  footer #mailto {
+		 	position: absolute;
+		 	z-index: 1010;
+		 	background: url(../img/gallery2/mail_red.png) center center no-repeat;
+		 	background-size: cover;
+		 	width: 38px;
+		 	height: 22px;
+		 	bottom: 24px;
+		 	left: 29%;
+		 	fill: #ff4931;
+		 	color: #ff4931;
+		 	opacity:0;
+	 } 
+	  
+	 
+	
+	
+	
+		/*Fade Scroll*/
+	      
+	  
+		header div.bottomBorder {
+			display:none;
+		   position:fixed;
+		   z-index:10010;
+		   top: 56px;
+		   left:-5px;
+		   height:6px;
+		 	 background-size: 100% 200px; 
+		   width:100%; 
+		   margin:0 auto;
+		   background: url(../img/rsz_borderbottom.png) bottom center no-repeat;
+		  background-blend-mode: multiply;
+		 opacity: 1; 
+	   }
+	   
+.middleNav {
+	display:none;
+}     
+}
+
+

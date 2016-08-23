@@ -1,0 +1,52 @@
+/*Makes poster a white background, block displayed, centered and with a box shadow*/
+#poster {
+	background: rgba(0,0,0,0.4); 
+	display:block; 
+	margin:0 auto;
+	-webkit-box-shadow: 4px 5px 15px 0px rgba(50, 50, 50, 0.4);
+	-moz-box-shadow:    4px 5px 15px 0px rgba(50, 50, 50, 0.4);
+	box-shadow:         4px 5px 15px 0px rgba(50, 50, 50, 0.4);
+
+} 
+
+/*Makes the poster height 73% of the window, makes the canvas 100% of poster height*/
+
+#poster {
+	height: 50%;
+	width:75%;
+	} /*height: 72.586%*/
+#blankcanvas {height: 100%;}
+
+
+/*Makes the .notMobile class div 400% width of poster. The column within .notMobile will float left, have an inline block display, centered text, and a width of 20%*/
+
+/*.notMobile {width:400%; margin-left: -150%; position:relative;}
+#colOne {float:left; padding:0; display: block; position:relative; text-align: center; float:left; width:20% !Important; padding-top: 0.66em; margin:0 2.5%;}*/
+
+
+
+/*.extraHeight {width:100%;}*/
+
+
+
+#poster {position:relative;}
+
+
+.mobile {display:none;}
+main {overflow:visible !important;}
+
+
+
+/*.posterImage {background-size: cover !important; width:100%; height: 100%; position:absolute;}
+    .next {opacity:0;}
+    div.commingsoon {position:absolute; width:100%;  height:1em; line-height:1em;
+                    bottom:0; margin:0 0 7%; 
+                    font-size: 3.33em; text-align:center; 
+                    font-family: 'Cutive Mono', ''; font-size:17px;
+                    color:black;
+    }
+    .commingsoon {opacity:0;}
+
+    #colList-mobile {
+        width:100%; text-align: center; z-index: 999; position: relative;
+    }*/

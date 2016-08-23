@@ -1,0 +1,162 @@
+.hoverimg {
+	overflow:hidden;
+	background:transparent;
+}
+
+.about-box p {
+	font-size: 14pt;
+	line-height: 34px;
+	letter-spacing:0.1px;
+	padding: 0 23px;
+}
+
+.about-box a {
+	color: #000;
+	
+}
+
+.about-box a:hover {
+	text-decoration:none;
+	
+	color: #ff4931;
+}
+
+
+#hi {
+	color:#ff4931;
+	
+	border-bottom: 1px solid transparent;
+}
+
+#hi:hover {
+	border-bottom: 1px solid #FF4931;
+	-webkit-transition: border-bottom 0.3s ease;
+	-o-transition: border-bottom 0.3s ease;
+	-moz-transition: border-bottom 0.3s ease;
+	transition: border-bottom 0.3s ease;
+}
+
+.gallery-content {
+	margin-top:800px;
+	max-width:100%;
+	margin-left:9%;
+	height:100%;
+	
+}
+
+.grid {
+	max-width:100%;
+	
+	display: block;
+	
+}
+
+.hoverimg img  { 
+	
+	-moz-transition: transform 0.5s ease;
+	-webkit-transition: transform 0.5s ease;
+	transition: transform 0.5s ease;
+	overflow:hidden;
+}
+.hoverimg:hover img { 
+	-moz-transform: scale(1.35);
+	-webkit-transform: scale(1.35);
+	transform: scale(1.35); 
+
+	overflow:hidden;
+}
+
+.grid-item {
+	display:block;
+	width: 250px;
+	float: left;
+	margin: 0 0 3px 0;
+	/*-webkit-transition: background 0.4s, box-shadow 0.4s;
+	-o-transition: background 0.4s, box-shadow 0.4s;
+	-moz-transition: background 0.4s, box-shadow 0.4s;
+	transition: background 0.4s, box-shadow 0.4s;*/
+	overflow:hidden;
+	}
+	
+	.grid-item.griditem2 {
+	display:block;
+	width: 503px;
+	float: left;
+	margin: 0 0 3px 0;
+	/*-webkit-transition: background 0.4s, box-shadow 0.4s;
+	-o-transition: background 0.4s, box-shadow 0.4s;
+	-moz-transition: background 0.4s, box-shadow 0.4s;
+	transition: background 0.4s, box-shadow 0.4s;*/
+	overflow:hidden;
+	}
+	
+	.grid-item img {
+		width:250px;
+	}
+	
+	.grid-item.griditem2 img {
+		width:503px;
+	}
+	
+ 
+ .grid-item2 {
+	display: block;
+	float:left;
+	margin:0 0 0 0;
+	width:505px;
+	height:230px;
+	padding-top:30px;
+}
+
+#jiminie {
+	width:503px;
+}
+
+#rediscover {
+	width:503px;
+}
+
+#letterous {
+	width:503px;
+}
+
+
+.follow {
+        position: absolute;
+        z-index:100;
+        color:#fff;
+        font-size:13pt;
+        opacity:0;
+       	font-family: 'Trench Sans Light 4', Helvetica;
+       	text-align:center;
+    }
+    
+.hoverimg:hover .follow {
+	opacity:1;
+}    
+    
+.grid .hoverimg .cover {
+    	background: rgba(0,0,0,.75);
+   
+    	
+    	opacity:0;
+    	position:absolute;
+    }    
+    
+.grid .hoverimg:hover .cover  {
+	
+	opacity:1;
+}  
+    
+
+    
+    
+    .grid img {
+    	position: relative;
+    	
+    }
+    
+    .grid-item, img, .cover, .hoverimg {
+    	overflow: hidden;
+    }
+   

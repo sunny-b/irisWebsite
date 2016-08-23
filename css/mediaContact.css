@@ -1,0 +1,321 @@
+/*************************** 
+ENTIRE SCREEN
+****************************/
+
+@media only screen and (min-width:320px) {
+				
+			input {
+				border:none;
+				background:#efefef;
+				height:35px;
+				padding-left:10px;
+				width:100%;
+				margin-bottom:10px;
+			}
+			
+			input:-webkit-autofill {
+    		-webkit-box-shadow: 0 0 0px 1000px white inset;
+			}
+			
+			input.error {
+				background:#ff6950;
+				
+			}
+			
+			input.error::-webkit-input-placeholder {
+				color:#fff;
+			}
+			
+			input[type='submit'] {
+				background:#fff;
+				color:#ff4931;
+				text-align:left;
+			}
+			
+			input:focus {
+				background:#fff;
+				border-bottom: 1px solid #ff3600;
+			}
+			
+			input.error:focus {
+				color:#000;
+			}
+			
+			input[type='submit']:focus {
+				border:none;
+			}
+   
+   		textarea {
+   			border:none;
+   			background:#efefef;
+   			padding: 10px 0 0 10px;
+   			width:100%;
+   		}
+   		
+   		textarea.error {
+				background:#ff6950;
+			}
+			
+			textarea.error::-webkit-input-placeholder {
+				color:#fff;
+			}
+   		
+   		textarea:focus {
+   			background:#fff;
+   			border-bottom:1px solid #ff3600;
+   		}
+   		
+   
+		.contact-info {
+			width:33%;
+			display:block;
+			float:left;
+			margin-top:13px;
+			line-height:24px;
+			font-size:11pt;
+			padding-right:8%;
+		}
+   
+   	.emailAdd {
+   		color:#ff4931;
+   		display:inline-block;
+   	}
+   	
+   	.emailAdd:after {
+   		content: "";
+			display:block;
+  		width: 0;
+  		height: 1px;
+  		margin-top:-3px;
+ 		 	visibility: hidden;
+			background: transparent;
+  -webkit-transition: width 0.3s ease, background 0.3s ease;
+  transition: width 0.3s ease, background 0.3s ease;
+   	}
+   	
+   	.emailAdd:hover:after {
+   			visibility: visible;
+ 				width:100%;
+  			background: #ff4931;
+   	}
+   
+    .contactForm,.contactForm2 {
+    	width:66%;
+    	margin: 0 auto;
+    	display:block;
+    	float:left;
+    	padding-right:11.5%;
+    }
+    
+    .message {
+    	margin-top:100px;
+    	color:#FF3600;
+    	font-size:1.9rem;
+    	
+    }
+    
+    footer .fixedFooter {
+    	opacity:0;
+    }
+}
+
+
+
+/*************************** 
+iPHONE and PHONES
+****************************/
+
+
+		
+		
+		@media (max-width:768px) and (min-width : 320px) {
+        
+        .wrapper {
+    	height:auto;
+    	margin: 100px 10.9% 0 11.5%;
+    	
+    }
+        
+        .contact-info {
+    	width:100%;
+    	margin:0 0 20px;
+    	padding:0;
+    	float:none;
+    	
+    }
+    
+    .contactForm,.contactForm2 {
+    	width:100%;
+    	padding:0;
+    	float:none;
+    }
+    
+    input {
+    	width:100%;
+    }
+    
+    textarea {
+    	width:100%;
+    }
+       
+    .messageSent {
+    	margin: 50px auto 0;
+    	width: 128px;
+    	display: block;
+    }   
+  }
+
+   
+
+    
+/*************************** 
+iPAD IN PORTRAIT
+****************************/
+    
+    
+    @media (max-width: 768px) and (min-width: 641px)  {
+    
+    
+    
+    header div.bottomBorder {
+				display:none;
+         position:fixed;
+         z-index:10010;
+         top: 59px;
+         left:-5px;
+         height:6px;
+       	 background-size: 100% 200px; 
+         width:100%; 
+         margin:0 auto;
+         background: url(../img/borderBottom.png) bottom center no-repeat;
+        background-blend-mode: multiply;
+       opacity: 0.3; 
+         }
+    
+    .nav {
+    	background: #fff;
+    	height: 60px;
+    }
+    
+    
+    footer .fixedFooter {
+         	display: none;
+         }
+    
+		footer .social-links {
+			display:block;
+			padding: 35px 0 0px 25px;
+			clear:both;
+		}
+    
+    
+ 
+ 		.overlay .overlay-close{
+ 			right:10.5%;
+ 		}
+   	
+    }
+    
+
+
+
+
+/*************************** 
+DESKTOPS
+****************************/
+
+/*CSS for beyond iPad*************/
+
+@media only screen and (min-width : 768px) {
+			
+			
+			
+			
+			.nav {
+				background:#fff;
+				height: 70px;
+				
+			}
+			
+			header div.bottomBorder {
+				display:none;
+         position:fixed;
+         z-index:10010;
+         top: 69px;
+         left:-5px;
+         height:6px;
+       	 background-size: 100% 200px; 
+         width:100%; 
+         margin:0 auto;
+         background: url(../img/borderBottom_opt1.png) bottom center no-repeat;
+        background-blend-mode: multiply;
+       opacity: 0.3; 
+         }
+			
+			.wrapper {
+    	height:auto;
+    	margin: 100px auto 0;
+    	text-align:left;
+    	padding-left: 10.9%;
+    	width:100%;
+    }
+			
+			.nav .name {
+				top: 30px;
+			}
+			
+			.pullright {
+				top: 27px;
+			}
+					
+			body, .wrapper {
+				background-color:#fff;
+			}
+			
+			.nav .name a {
+				color: #ff4931;
+			}
+			
+			
+			
+			.pullright a.hamburger .icon-bar, .pullright a.hamburger .icon-bar:before, .pullright a.hamburger .icon-bar:after {
+				background-color: #ff4931;
+			}
+			
+			.messageSent {
+				width:128px;
+				display:inline-block;
+				margin:30px 0 0 30px;
+			}
+			
+			
+		.overlay .overlay-close{
+ 			right:12.1%;
+ 			top: 31px;
+ 		}
+ 		
+ 		footer #copyright {
+ 			position:fixed;
+ 			bottom:96px;
+ 		}
+
+		footer .fixedFooter {
+         	display: none;
+    }
+    
+   footer .social-links {
+			display:block;
+			
+			background:#fff;
+			clear:both;
+			position: absolute;
+			bottom:20px;
+			left:10.8%;
+		} 
+		
+		footer .social-links ul {
+			margin:0;
+		}
+			
+}
+

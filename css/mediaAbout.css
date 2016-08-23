@@ -1,0 +1,267 @@
+/*************************** 
+iPAD IN PORTRAIT
+****************************/
+    
+    
+    @media (max-width:399px) and (min-width:320px) {
+    	.wrapper .about-photo {
+    		width:320px;
+    		min-width:320px;
+    	}
+    }
+    
+    @media (max-width: 768px) and (min-width: 641px)  {
+    
+    .colorNormal {
+    	background-color:#FFf;
+    }
+    
+    header div.bottomBorder {
+				display:none;
+         position:fixed;
+         z-index:10010;
+         top: 59px;
+         left:-5px;
+         height:6px;
+       	 background-size: 100% 200px; 
+         width:100%; 
+         margin:0 auto;
+         background: url(../img/borderBottom.png) bottom center no-repeat;
+        background-blend-mode: multiply;
+       opacity: 0.3; 
+         }
+    
+    .nav {
+    	background: #fff;
+    	height: 60px;
+    }
+    
+    .wrapper .content {
+    	height:auto;
+    	margin: 0 45px;
+    }
+    
+    
+    footer .fixedFooter {
+         	display: none;
+         }
+    
+		footer .social-links {
+			display:block;
+			padding: 35px 0 20px 8px;
+			clear:both;
+		}
+    
+    
+ 
+ 		.overlay .overlay-close{
+ 			right:10.5%;
+ 		}
+   	
+    }
+    
+
+
+
+
+/*************************** 
+DESKTOPS
+****************************/
+
+/*CSS for beyond iPad*************/
+
+@media only screen and (min-width : 769px) {
+	.wrapper .content .accolades {
+		width: 34%;
+		margin: 50px 0 0 10px;
+		padding: 0;
+		display: block;
+		float: left;
+	  		
+	 }
+
+@media only screen and (min-width : 768px) {
+			
+			
+			
+			.colorNormal {
+    	background-color:#FFf;
+    }
+			
+			.nav {
+				background:#fff;
+				height: 70px;
+				
+			}
+			
+			header div.bottomBorder {
+				display:none;
+         position:fixed;
+         z-index:10010;
+         top: 69px;
+         left:-5px;
+         height:6px;
+       	 background-size: 100% 200px; 
+         width:100%; 
+         margin:0 auto;
+         background: url(../img/borderBottom_opt1.png) bottom center no-repeat;
+        background-blend-mode: multiply;
+       opacity: 0.3; 
+         }
+			
+			.middleNav {
+				width: 61.2%;
+				display: block;
+				position: fixed;
+				/*left: 29.3%;*/
+				top: 21px;
+				margin:0 0 0 -169.1015px;
+				padding:0;
+				left: 43%;
+			
+			}
+			
+			.middleNav ul {
+				width: auto;
+				display: block;
+				margin: 0;
+				padding:0;
+			}
+							
+			
+			.middleNav ul li {
+				display: inline-block;
+				z-index: 1010;
+				color: #000;
+				width: auto;
+				padding: 10px;
+				left:0;
+				right:0;
+				margin: 0 2%;
+				font-size: 1.2em;
+			}
+			
+			.middleNav ul li a, .middleNav ul li a:link, .middleNav ul li a:visited {
+				color: #000;
+				opacity: 0.6;
+				border-bottom: 1px solid transparent;
+				padding-bottom: 3px;
+			}
+			
+			.middleNav ul li a:hover {
+				color: #000;
+				opacity: 1;
+				border-bottom: 1px solid #000;
+	
+			}
+			
+			.nav .name {
+				top: 30px;
+			}
+			
+			.pullright {
+				top: 27px;
+			}
+					
+			body, .wrapper, #colOne {
+				background-color:#fff;
+			}
+			
+			.nav .name a {
+				color: #ff4931;
+			}
+			
+			
+			
+			.pullright a.hamburger .icon-bar, .pullright a.hamburger .icon-bar:before, .pullright a.hamburger .icon-bar:after {
+				background-color: #ff4931;
+			}
+    
+    
+    .wrapper .content {
+    	height: auto;
+    	
+    }
+    
+    .wrapper .about-photo {
+    	margin: 115px 0 0 255px;
+    }
+    
+    .wrapper .about-photo {
+    	height: 53.93vw;
+	width: 64.18vw;
+	max-height: 61.14vh;
+	max-width: 72.76vh;
+    }
+    
+    .wrapper .content .about {
+    	width: 64.6%;
+    	display: block;
+    	padding: 30px 8% 0 8.2%;
+    	float: left;
+    	border-right: 1px solid black;
+    	
+    }
+  
+  	.wrapper .content #headline, .wrapper .content .mobileSolution {
+  		display: none;
+  	}
+  	
+  	.wrapper .about-container {
+  		position: relative;
+  		left:0;
+  		right:0;
+  		height: auto;
+  		width: 768px;
+  		margin: 0 auto;
+  	}
+  	
+  	
+  	.wrapper .about-container #solution {
+  display:inline;
+	font-size: 22pt;
+	color: #ff4931;
+	text-align: left;
+	top:34px;
+	left:56px;
+	position: absolute;
+	width: 100%;
+	
+	}
+  	
+  	.wrapper .content h3 {
+	font-size: 16pt;
+	margin-top: 0px;
+	color: black;
+	display: inline-block;
+	line-height:33px;
+}
+  	
+  
+  .wrapper .content .content-break {
+  	display: none;
+  }
+   
+   footer .fixedFooter {
+         	display: none;
+    }
+    
+   footer .social-links {
+			display:block;
+			padding: 35px 0 0px 25px;
+			background:#fff;
+			clear:both;
+		} 
+		
+   
+    
+  
+
+.overlay .overlay-close{
+ 			right:12.1%;
+ 			top: 31px;
+ 		}
+
+			
+}
+
