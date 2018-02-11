@@ -10,7 +10,7 @@
 		<meta property="og:title" content="Iris Sprague | Designer">
 		<meta property="og:type" content="website">
 		
-		<link rel="stylesheet" href="http://fonts.indiantypefoundry.com/WF-019442-001445.css" type="text/css" />
+		<link rel="stylesheet" href="css/fonts.css" type="text/css" />
 		<link rel="stylesheet" href="css/allGallery.min.css">
 		<script src="js/modernizr.custom.js"></script>
 		

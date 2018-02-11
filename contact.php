@@ -9,12 +9,12 @@
 		<meta property="og:site_name" content="Iris Sprague | Designer">
 		<meta property="og:title" content="Iris Sprague | Designer">
 		<meta property="og:type" content="website">
-		<link rel="stylesheet" href="http://fonts.indiantypefoundry.com/WF-019442-001445.css" type="text/css" />
+		<link rel="stylesheet" href="css/fonts.css" type="text/css" />
 		<link rel="stylesheet" href="css/allContact.min.css">
-		
+
 		<script src="js/modernizr.custom.js"></script>
 	</head>
-	
+
 	<body class="home colorNormal">
 		<div class="page">
 		<?php
@@ -24,45 +24,43 @@
 			<div class="wrapper">
 				<div class="contact-info">
 						<p>For general inquiries, e-mail me directly at <a target="_blank" class="emailAdd" href="mailto:irissprague@gmail.com">irissprague@gmail.com</a> or fill out the following contact form.</p>
-						
+
 					</div>
-				
+
 				<?php
 					require 'php/contactForm.php';
 				?>
 			</div>
-			
-					
-	
-					
-				
-		
-		
+
+
+
+
+
+
+
 		<?php
-				require 'php/overlay.php';	
-						
-				
+				require 'php/overlay.php';
+
+
 			?>
-				
-				
-				
-		
+
+
+
+
 		<footer>
 			<?php
 				require 'php/footersocial.php';
-			
+
 				require 'php/footerfixed.php';
 			?>
 		</footer>
-		
+
 		</div>
 	</div>
 	<?php
 		require 'php/scripts.php';
 	?>
 	</body>
-					
+
 
 </html>
-
-
